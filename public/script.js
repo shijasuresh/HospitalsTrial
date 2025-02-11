@@ -61,7 +61,7 @@ function findNearbyHospitals(map, location) {
                         position: place.geometry.location,
                         map: map,
                         title: place.name,
-                        label: hospital.name,
+                        label: place.name,
                         icon: "http://maps.google.com/mapfiles/ms/icons/red-dot.png" // Red marker icon for hospitals
                     });
                 });
